@@ -369,20 +369,20 @@ people.forEach(person => {
   const nameCell = document.createElement('td');
     nameCell.textContent = person.name;
     row.appendChild(nameCell);
-  const genderCell = document.createElement('td');
-  genderCell.textContent = person.gender;
-    row.appendChild(genderCell);
+  const sexCell = document.createElement('td');
+  sexCell.textContent = person.sex;
+    row.appendChild(sexCell);
   const bornCell = document.createElement('td');
   bornCell.textContent = person.born;
-    row.appendChild(nameCell);
+    row.appendChild(bornCell);
   const diedCell = document.createElement('td');
   diedCell.textContent = person.died;
     row.appendChild(diedCell);
   const ageCell = document.createElement('td');
-    ageCell.textContent = person.age;
-    row.appendChild(nameCell);
+    ageCell.textContent = age;
+    row.appendChild(ageCell);
   const centuryCell = document.createElement('td');
-  centuryCell.textContent = person.century;
+  centuryCell.textContent = century;
   row.appendChild(centuryCell);
 
   dashboardTable.appendChild(row);
